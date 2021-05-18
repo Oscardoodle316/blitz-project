@@ -54,6 +54,14 @@ const Home: BlitzPage = () => {
     <div>
       <h1>Hello, world!</h1>
 
+      <header>
+        <div className="app-bar">
+          <div className="app-header">
+            <h1>To Do List</h1>
+          </div>
+        </div>
+      </header>
+
       <Suspense fallback="Loading...">
         <UserInfo />
       </Suspense>
